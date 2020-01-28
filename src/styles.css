@@ -1,1 +1,118 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+  background-image: url("/assets/Images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.sidenav {
+    height: 100%;
+    width: 50px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1C60E8;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 10px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 50px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 0.39px;
+    font-family: sans-serif;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .Menu{
+    transform: rotate(-90deg);
+      color: white;
+      font-weight: bold;
+      letter-spacing: 2px;
+      font-family: sans-serif;
+  }
+
+  #med{
+    color: white;
+    transform: rotate(-90deg);
+    margin-top: 100%;
+  }
+
+  .logoWhite{
+    margin-left: 50px;
+}
+
+  .openbtn{
+    padding-left: 10px;
+    fill: white;
+    cursor: pointer;
+}
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    font-size: 36px;
+    margin-left: 280px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .mailID {
+    margin-left: 50px;
+    color: white;
+  }
+
+  .logoBlue{
+    padding: 40px 0px 0px 150px;
+}
+
+  .content-blog{
+      padding: 20% 0px 0px 150px;
+      width: 40%;
+    }
+
+    .content-blog a{
+      text-decoration: none;
+    }
+
+  .content{
+      font-size: 30px;
+      font-family: 'Raleway', sans-serif;
+      letter-spacing: 1px;
+      line-height: 40px;
+      
+  }
+
+  .works, .aboutUS{
+    padding-left: 60px;
+    display: inline;
+    font-weight: bold;
+    color: rgb(109, 109, 250);
+    letter-spacing: 0.5px;
+    
+  }
+
+  .content-blog, .sideImage, .ImageTag{
+      display: inline-block;
+  }
+
+
+  .ImageTag{
+    transform: rotate(-90deg);
+   position: absolute;
+   margin-left: 9%;
+   margin-top: 12%;
+  }  
+
+  .ImageTag p{
+      font-weight: 100;
+  }
+
+  .sideImage{
+    margin-left: 200px;
+}

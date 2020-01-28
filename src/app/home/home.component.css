@@ -1,0 +1,35 @@
+.animation{
+    background-color: #1C60E8;
+    z-index: 1;
+    position: absolute;
+    width: 99.4%;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+  }
+  
+  .animation-img{
+  padding: 30% 0px 0px 42%;
+  }
+  
+  .animation-text{
+    color: white;
+    padding-left: 37%;
+    font-size: 25px;
+  }
+  
+  .animation {
+   animation: 2.5s ease-out moveleft forwards;
+  }
+  
+  @keyframes moveleft {
+   to  { transform: translateX(-100%); }
+  }
+  
+  
+    
+    
+    
+   
+    
+    

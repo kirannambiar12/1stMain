@@ -1,0 +1,124 @@
+.logoBlue-art5{
+    padding: 3% 0px 0px 10%;
+}
+
+.ayca-img{
+    padding: 10% 0px 0px 13%;
+    font-size: 18px;
+}
+
+.ayca-img-text, .ayca-sec-img-text{
+    padding-left: 13%;
+    padding-top: 0;
+}
+
+.piller-img-text, .artwork-img-text{
+    padding-left: 60%;
+    padding-top: 0;
+}
+
+.piller-img{
+    padding: 0% 0px 0px 60%;
+}
+
+.ayca-sec-img{
+    padding: 0% 0px 0px 13%;
+    font-size: 18px;
+}
+
+.artwork-img{
+    padding: 0% 0px 0px 60%;
+}
+
+
+.side-text-ayca, .side-text-ayca-sec{
+    position: absolute;
+    transform: rotate(-90deg);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.side-text-ayca{
+    margin: 13% 0 0 5%;
+}
+
+.side-text-ayca-sec{
+    margin: 5% 0 0 5%;
+}
+
+.side-text-piller, .side-text-artwork{
+    position: absolute;
+    transform: rotate(-90deg);
+    margin: 4% 0 0 51%;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.office-img{
+    padding-left: 7.5px;
+    width: 100%;
+    height: 100vh;
+}
+
+.office-img-text{
+    height: 40%;
+    width: 40%;
+    position: absolute;
+    margin: 13% 0px 0px 50%;
+    background-color: white;
+    
+}
+
+.office-img-text h2,p{
+    padding-top: 4%;
+    padding-left: 8%;
+    padding-bottom: 2%;
+}
+
+.office-img-text h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+
+.office-img-text p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.office-img-text a{
+    padding-left: 8%;
+    font-size: x-large;
+    text-decoration: none;
+    font-weight: bold;
+    color: #1C60E8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.footer{
+    width: 100%;
+    height: 100%;
+    padding-left: 8px;
+    background-color: rgb(213, 222, 241);
+}
+
+.join-our-team, .partner-with-us{
+    display: inline-block;
+    width: 35%;
+    margin-left: 10%;
+    padding-top: 4%;
+}
+
+.join-our-team h2,h3, .partner-with-us h2,h3{ 
+    padding-left: 30%;
+}
+
+.join-our-team h3,a .partner-with-us h3,a{ 
+    color: #1C60E8;
+    text-decoration: none;
+}
+
+.join-our-team p, .partner-with-us p{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: lighter;
+line-height: 25px;
+}
